@@ -1,0 +1,240 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+/*-----Navigation-----*/
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand
+{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+#nav-bar ul li a:hover
+{
+  color: #007bff!important;
+}
+.navbar
+{
+  background: #fff;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
+/*-----Slider-----*/
+#slider
+{
+  width: 100%;
+}
+.carousel-caption
+{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial!important;
+}
+.carousel-caption h5
+{
+  color: #fff;
+  font-size: 42px;
+}
+.carousel-item img
+{
+  margin: auto;
+}
+/*-----Home-----*/
+#home
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+#home img
+{
+  border-radius: 50%;
+  height: 350px;
+  width: 480px;
+}
+.home-content
+{
+  padding-top: 100px;
+  text-align: center;
+}
+.icon
+{
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.fa-github
+{
+  background: white;
+  color: black;
+}
+.fa-linkedin-square
+{
+  background: white;
+  color: #0e76a8;
+}
+.fa-facebook-square
+{
+  background: white;
+  color: #3B5998;
+}
+.fa-instagram
+{
+  background: white;
+  color: black;
+}
+/*-----About-----*/
+#about
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-content
+{
+  padding-top: 20px;
+}
+h2
+{
+  padding-top: 20px;
+}
+.videos
+{
+  padding-top: 20px;
+}
+img
+{
+  padding-bottom: 20px;
+  height: 350px;
+  width: 540px;
+}
+figcaption
+{
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+.col-md-6
+{
+  padding-top: 20px;
+}
+.skills-bar p
+{
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.progress-bar
+{
+  border-radius: 16px;
+}
+.progress
+{
+  border-radius: 16px!important;
+  margin-bottom: 20px;
+}
+/*-----Projects-----*/
+#projects
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(images/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef!important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#projects h1
+{
+  text-align: center;
+  color: #efefef!important;
+  padding-bottom: 10px;
+}
+#projects h1::after
+{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.projects
+{
+  margin-top: 40px;
+}
+.icon
+{
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+#projects p
+{
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
+}
+/*-----Resume----*/
+#resume
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+h1
+{
+  text-align: center;
+  color: #555!important;
+  padding-bottom: 10px;
+}
+h1::after
+{
+  content: '';
+  background: #007bff;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+/*-----Resume-----*/
+.file
+{
+  margin-left: auto;
+  align-items: center;
+}
